@@ -5,6 +5,7 @@ import CustomButton from "../custom-button/custom-button.component";
 import "./collection-item.styles.scss";
 
 const CollectionItem = ({ item, addItem }) => {
+  //console.log(addItem, "addItem", item, "item");
   const { name, price, imageUrl } = item;
 
   return (

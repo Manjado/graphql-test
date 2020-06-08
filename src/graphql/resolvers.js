@@ -20,7 +20,7 @@ const GET_CARD_HIDDEN = gql`
 
 const GET_ITEM_COUNT = gql`
   {
-    cartHidden @client
+    itemCount @client
   }
 `;
 
